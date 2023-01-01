@@ -4,8 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// let msg = "Have a nice day";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // <p>massage : {msg}</p>
   <React.StrictMode>
     <App />
   </React.StrictMode>
